@@ -1,0 +1,19 @@
+{
+    "name": "BulletSharp.Editor",
+    "rootNamespace": "",
+    "references": [
+        "GUID:1a47223afb798a447bd11e618f565b14",
+        "GUID:2836c0c8a4e9b45bfa4b78a120877fb3"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
