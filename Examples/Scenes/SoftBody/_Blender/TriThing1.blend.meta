@@ -1,117 +1,299 @@
 fileFormatVersion: 2
 guid: e40c6c4559141ec40895f2cbd3bb5c24
-timeCreated: 1476119028
-licenseType: Free
 ModelImporter:
-  serializedVersion: 19
-  fileIDToRecycleName:
-    100000: Armature
-    100002: Bone_001
-    100004: Bone_002
-    100006: Bone_004
-    100008: Bone_005
-    100010: Bone_006
-    100012: Bone_007
-    100014: Bone_008
-    100016: Bone_009
-    100018: Bone_010
-    100020: Bone_011
-    100022: Bone_012
-    100024: Bone_013
-    100026: Bone_014
-    100028: Bone_015
-    100030: Bone_016
-    100032: Bone_017
-    100034: Bone_018
-    100036: Bone_019
-    100038: Bone_020
-    100040: Bone_021
-    100042: Bone_022
-    100044: Bone_023
-    100046: Bone_024
-    100048: Bone_025
-    100050: Bone_026
-    100052: Bone_027
-    100054: Bone_028
-    100056: Bone_029
-    100058: Bone_030
-    100060: Bone_031
-    100062: Bone_032
-    100064: Bone_033
-    100066: Bone_034
-    100068: Bone_035
-    100070: Bone_036
-    100072: Bone_037
-    100074: //RootNode
-    100076: TriThingLowPoly
-    100078: TriThingRenderMesh
-    400000: Armature
-    400002: Bone_001
-    400004: Bone_002
-    400006: Bone_004
-    400008: Bone_005
-    400010: Bone_006
-    400012: Bone_007
-    400014: Bone_008
-    400016: Bone_009
-    400018: Bone_010
-    400020: Bone_011
-    400022: Bone_012
-    400024: Bone_013
-    400026: Bone_014
-    400028: Bone_015
-    400030: Bone_016
-    400032: Bone_017
-    400034: Bone_018
-    400036: Bone_019
-    400038: Bone_020
-    400040: Bone_021
-    400042: Bone_022
-    400044: Bone_023
-    400046: Bone_024
-    400048: Bone_025
-    400050: Bone_026
-    400052: Bone_027
-    400054: Bone_028
-    400056: Bone_029
-    400058: Bone_030
-    400060: Bone_031
-    400062: Bone_032
-    400064: Bone_033
-    400066: Bone_034
-    400068: Bone_035
-    400070: Bone_036
-    400072: Bone_037
-    400074: //RootNode
-    400076: TriThingLowPoly
-    400078: TriThingRenderMesh
-    2300000: TriThingLowPoly
-    3300000: TriThingLowPoly
-    4300000: TriThingRenderMesh
-    4300002: TriThingLowPoly
-    7400000: Default Take
-    9500000: //RootNode
-    13700000: TriThingRenderMesh
+  serializedVersion: 21100
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: Armature
+  - first:
+      1: 100002
+    second: Bone_001
+  - first:
+      1: 100004
+    second: Bone_002
+  - first:
+      1: 100006
+    second: Bone_004
+  - first:
+      1: 100008
+    second: Bone_005
+  - first:
+      1: 100010
+    second: Bone_006
+  - first:
+      1: 100012
+    second: Bone_007
+  - first:
+      1: 100014
+    second: Bone_008
+  - first:
+      1: 100016
+    second: Bone_009
+  - first:
+      1: 100018
+    second: Bone_010
+  - first:
+      1: 100020
+    second: Bone_011
+  - first:
+      1: 100022
+    second: Bone_012
+  - first:
+      1: 100024
+    second: Bone_013
+  - first:
+      1: 100026
+    second: Bone_014
+  - first:
+      1: 100028
+    second: Bone_015
+  - first:
+      1: 100030
+    second: Bone_016
+  - first:
+      1: 100032
+    second: Bone_017
+  - first:
+      1: 100034
+    second: Bone_018
+  - first:
+      1: 100036
+    second: Bone_019
+  - first:
+      1: 100038
+    second: Bone_020
+  - first:
+      1: 100040
+    second: Bone_021
+  - first:
+      1: 100042
+    second: Bone_022
+  - first:
+      1: 100044
+    second: Bone_023
+  - first:
+      1: 100046
+    second: Bone_024
+  - first:
+      1: 100048
+    second: Bone_025
+  - first:
+      1: 100050
+    second: Bone_026
+  - first:
+      1: 100052
+    second: Bone_027
+  - first:
+      1: 100054
+    second: Bone_028
+  - first:
+      1: 100056
+    second: Bone_029
+  - first:
+      1: 100058
+    second: Bone_030
+  - first:
+      1: 100060
+    second: Bone_031
+  - first:
+      1: 100062
+    second: Bone_032
+  - first:
+      1: 100064
+    second: Bone_033
+  - first:
+      1: 100066
+    second: Bone_034
+  - first:
+      1: 100068
+    second: Bone_035
+  - first:
+      1: 100070
+    second: Bone_036
+  - first:
+      1: 100072
+    second: Bone_037
+  - first:
+      1: 100074
+    second: //RootNode
+  - first:
+      1: 100076
+    second: TriThingLowPoly
+  - first:
+      1: 100078
+    second: TriThingRenderMesh
+  - first:
+      4: 400000
+    second: Armature
+  - first:
+      4: 400002
+    second: Bone_001
+  - first:
+      4: 400004
+    second: Bone_002
+  - first:
+      4: 400006
+    second: Bone_004
+  - first:
+      4: 400008
+    second: Bone_005
+  - first:
+      4: 400010
+    second: Bone_006
+  - first:
+      4: 400012
+    second: Bone_007
+  - first:
+      4: 400014
+    second: Bone_008
+  - first:
+      4: 400016
+    second: Bone_009
+  - first:
+      4: 400018
+    second: Bone_010
+  - first:
+      4: 400020
+    second: Bone_011
+  - first:
+      4: 400022
+    second: Bone_012
+  - first:
+      4: 400024
+    second: Bone_013
+  - first:
+      4: 400026
+    second: Bone_014
+  - first:
+      4: 400028
+    second: Bone_015
+  - first:
+      4: 400030
+    second: Bone_016
+  - first:
+      4: 400032
+    second: Bone_017
+  - first:
+      4: 400034
+    second: Bone_018
+  - first:
+      4: 400036
+    second: Bone_019
+  - first:
+      4: 400038
+    second: Bone_020
+  - first:
+      4: 400040
+    second: Bone_021
+  - first:
+      4: 400042
+    second: Bone_022
+  - first:
+      4: 400044
+    second: Bone_023
+  - first:
+      4: 400046
+    second: Bone_024
+  - first:
+      4: 400048
+    second: Bone_025
+  - first:
+      4: 400050
+    second: Bone_026
+  - first:
+      4: 400052
+    second: Bone_027
+  - first:
+      4: 400054
+    second: Bone_028
+  - first:
+      4: 400056
+    second: Bone_029
+  - first:
+      4: 400058
+    second: Bone_030
+  - first:
+      4: 400060
+    second: Bone_031
+  - first:
+      4: 400062
+    second: Bone_032
+  - first:
+      4: 400064
+    second: Bone_033
+  - first:
+      4: 400066
+    second: Bone_034
+  - first:
+      4: 400068
+    second: Bone_035
+  - first:
+      4: 400070
+    second: Bone_036
+  - first:
+      4: 400072
+    second: Bone_037
+  - first:
+      4: 400074
+    second: //RootNode
+  - first:
+      4: 400076
+    second: TriThingLowPoly
+  - first:
+      4: 400078
+    second: TriThingRenderMesh
+  - first:
+      23: 2300000
+    second: TriThingLowPoly
+  - first:
+      33: 3300000
+    second: TriThingLowPoly
+  - first:
+      43: 4300000
+    second: TriThingRenderMesh
+  - first:
+      43: 4300002
+    second: TriThingLowPoly
+  - first:
+      74: 7400000
+    second: Default Take
+  - first:
+      95: 9500000
+    second: //RootNode
+  - first:
+      137: 13700000
+    second: TriThingRenderMesh
+  - first:
+      74: -623603649343465320
+    second: Scene
+  externalObjects: {}
   materials:
-    importMaterials: 1
+    materialImportMode: 1
     materialName: 0
     materialSearch: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
-    resampleRotations: 1
+    resampleCurves: 1
     optimizeGameObjects: 0
     motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
     animationImportErrors: 
     animationImportWarnings: 
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
     animationCompression: 1
     animationRotationError: 0.5
     animationPositionError: 0.5
     animationScaleError: 0.5
     animationWrapMode: 0
     extraExposedTransformPaths: []
+    extraUserProperties: []
     clipAnimations: []
     isReadable: 1
   meshes:
@@ -119,25 +301,45 @@ ModelImporter:
     globalScale: 1
     meshCompression: 0
     addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 0
     importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    fileIdsGeneration: 1
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
-    optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 1
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 0
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
     secondaryUVPackMargin: 4
     useFileScale: 1
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
     tangentImportMode: 3
+    normalCalculationMode: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
   importAnimation: 1
-  copyAvatar: 0
   humanDescription:
+    serializedVersion: 3
     human: []
     skeleton: []
     armTwist: 0.5
@@ -147,11 +349,17 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
+    globalScale: 1
     rootMotionBoneName: 
     hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
   lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 2
   humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 0
   additionalBone: 0
   userData: 
   assetBundleName: 

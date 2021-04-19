@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using BulletSharp;
 using BulletSharp.SoftBody;
+using BulletSharpUnity3d;
 using BulletUnity.Debugging;
 using UnityEngine;
 using static BulletUnity.BCollisionObject;
@@ -21,6 +22,7 @@ namespace BulletUnity
 
         public enum HelperType
         {
+            Ecs,
             LateUpdate,
             Thread,
         }
@@ -657,6 +659,8 @@ namespace BulletUnity
             PhysicsWorldHelper = GetComponent<BasePhysicsWorldHelper>();
             if (PhysicsWorldHelper == null)
             {
+                if (helperType == HelperType.Ecs)
+                    PhysicsWorldHelper = gameObject.AddComponent<BPhysicsWorldEcsHelper>();
                 if (helperType == HelperType.LateUpdate)
                     PhysicsWorldHelper = gameObject.AddComponent<BPhysicsWorldLateHelper>();
                 if (helperType == HelperType.Thread)

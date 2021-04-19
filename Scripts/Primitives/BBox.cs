@@ -32,6 +32,5 @@ namespace BulletUnity.Primitives
             GetComponent<MeshFilter>().sharedMesh = meshSettings.Build();
             GetComponent<BBoxShape>().Extents = meshSettings.extents / 2f;
         }
-
     }
 }

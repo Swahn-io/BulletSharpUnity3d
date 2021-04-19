@@ -1,0 +1,16 @@
+{
+    "name": "BulletSharp",
+    "rootNamespace": "",
+    "references": [
+        "GUID:2836c0c8a4e9b45bfa4b78a120877fb3"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
