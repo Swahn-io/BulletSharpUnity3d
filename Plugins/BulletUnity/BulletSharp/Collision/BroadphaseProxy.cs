@@ -60,6 +60,7 @@ namespace BulletSharp
         BallCollisionFilter = 128,
         ItemBoxCollisionFilter = 256,
         ObstacleCollisionFilter = 512,
+        ShipCollisionFilter = 1024
     }
 
 	public class BroadphaseProxy
